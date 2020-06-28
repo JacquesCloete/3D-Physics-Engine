@@ -15,9 +15,9 @@ A few important approximations were necessary for the analysis;
 	1) Collision happens for only one time-step (and so is effectively instantaneous)
 	2) Coefficient of (dynamic) friction is constant
 	3) Newton's law of restitution applies
-	4) Collision occurs at the point of contact, which is always a vertex, rather than across part of the object's surface
+	4) Collision occurs at the point of contact, which is always a vertex, rather than across part of the object's surface.
 
-The analysis is driven entirely by Newton's laws of motion, and works in terms of impulse rather than forces
+The analysis is driven entirely by Newton's laws of motion, and works in terms of impulse rather than forces.
 
 The point of contact may or may not slip, depending on whether the required horizontal impulse to do so is greater or lesser than the maximum impulse that can be caused by friction.
 
